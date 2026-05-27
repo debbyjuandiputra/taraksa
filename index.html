@@ -1,0 +1,1194 @@
+<!-- LU NGAPAIN INSPECT ELEMEN JIR 😹 -->
+<!--
+DEVELOPER:
+1. Debby Juandi Putra
+2. Claude AI
+3. DeepSeek
+4. Gemini
+5. Chat GPT
+ -->
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TARAKSA 2025</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,600;1,300&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet" />
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg: #0a0a0f;
+            --surface: #12121a;
+            --card: #1a1a26;
+            --primary: #4b8be8;
+            --primary-light: #85c5f5;
+            --red: #e84b4b;
+            --white: #f0eee8;
+            --muted: #6b6b80;
+            --border: rgba(75, 139, 232, 0.15);
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--white);
+            font-family: 'DM Sans', sans-serif;
+            overflow-x: hidden;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 999;
+            opacity: .4;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1.2rem 3rem;
+            background: rgba(10, 10, 15, .85);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .nav-logo {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.6rem;
+            letter-spacing: 0.12em;
+            color: var(--primary);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+        .nav-links a {
+            font-family: 'Space Mono', monospace;
+            font-size: .72rem;
+            letter-spacing: .12em;
+            color: var(--muted);
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: color .25s;
+        }
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        .hero {
+            min-height: 100vh;
+            display: grid;
+            place-items: center;
+            padding: 8rem 3rem 4rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-bg-num {
+            position: absolute;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: clamp(18rem, 38vw, 42rem);
+            color: rgba(75, 139, 232, .04);
+            user-select: none;
+            pointer-events: none;
+            line-height: 1;
+            letter-spacing: -0.04em;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            white-space: nowrap;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            width: 2px;
+            height: 60%;
+            background: linear-gradient(to bottom, transparent, var(--primary), transparent);
+            right: 28%;
+            top: 20%;
+            opacity: .3;
+            transform: rotate(12deg);
+        }
+
+        .hero-inner {
+            max-width: 900px;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero-tag {
+            font-family: 'Space Mono', monospace;
+            font-size: .7rem;
+            letter-spacing: .22em;
+            text-transform: uppercase;
+            color: var(--primary);
+            border: 1px solid var(--primary);
+            display: inline-block;
+            padding: .35rem 1rem;
+            margin-bottom: 2rem;
+            animation: fadeUp .8s ease both;
+        }
+
+        .hero-title {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: clamp(5rem, 14vw, 11rem);
+            line-height: .9;
+            letter-spacing: .04em;
+            animation: fadeUp .9s .15s ease both;
+            color: var(--white);
+            margin-bottom: 0.5rem;
+        }
+
+        .hero-title span {
+            color: var(--primary);
+        }
+
+        .hero-motto {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: clamp(1.8rem, 5vw, 2.8rem);
+            letter-spacing: 0.08em;
+            color: var(--white);
+            opacity: 0.85;
+            margin-bottom: 1rem;
+            animation: fadeUp .9s .25s ease both;
+            line-height: 1.2;
+        }
+
+        .hero-sub {
+            margin-top: 0.8rem;
+            font-size: 1.05rem;
+            font-weight: 300;
+            color: var(--muted);
+            line-height: 1.7;
+            max-width: 520px;
+            margin-left: auto;
+            margin-right: auto;
+            animation: fadeUp .9s .3s ease both;
+        }
+
+        .hero-cta {
+            margin-top: 2.8rem;
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            animation: fadeUp .9s .45s ease both;
+        }
+
+        .btn {
+            font-family: 'Space Mono', monospace;
+            font-size: .75rem;
+            letter-spacing: .12em;
+            text-transform: uppercase;
+            padding: .85rem 2rem;
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+            transition: all .25s;
+            display: inline-block;
+        }
+        .btn-primary {
+            background: var(--primary);
+            color: #0a0a0f;
+        }
+        .btn-primary:hover {
+            background: var(--primary-light);
+            transform: translateY(-2px);
+        }
+        .btn-outline {
+            background: transparent;
+            color: var(--white);
+            border: 1px solid rgba(240, 238, 232, .25);
+        }
+        .btn-outline:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .stats-strip {
+            background: var(--surface);
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+            padding: 2rem 3rem;
+            display: flex;
+            justify-content: center;
+            gap: 0;
+            flex-wrap: wrap;
+            animation: fadeUp .9s .6s ease both;
+        }
+
+        .stat-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0 3.5rem;
+            border-right: 1px solid var(--border);
+        }
+        .stat-item:last-child {
+            border-right: none;
+        }
+
+        .stat-num {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 3rem;
+            color: var(--primary);
+            line-height: 1;
+        }
+        .stat-label {
+            font-family: 'Space Mono', monospace;
+            font-size: .65rem;
+            letter-spacing: .15em;
+            color: var(--muted);
+            text-transform: uppercase;
+            margin-top: .4rem;
+        }
+
+        section {
+            padding: 6rem 3rem;
+        }
+
+        .section-tag {
+            font-family: 'Space Mono', monospace;
+            font-size: .65rem;
+            letter-spacing: .2em;
+            color: var(--primary);
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+
+        .section-title {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            line-height: 1;
+            letter-spacing: .04em;
+        }
+
+        .about {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5rem;
+            align-items: center;
+        }
+
+        .about-text p {
+            margin-top: 1.4rem;
+            color: var(--muted);
+            line-height: 1.8;
+            font-size: .95rem;
+        }
+
+        .about-visual {
+            position: relative;
+            height: 380px;
+        }
+
+        .about-card {
+            position: absolute;
+            background: var(--card);
+            border: 1px solid var(--border);
+            padding: 1.5rem;
+        }
+
+        .about-card.big {
+            width: 70%;
+            height: 75%;
+            top: 0;
+            right: 0;
+        }
+
+        .about-card.small {
+            width: 50%;
+            height: 48%;
+            bottom: 0;
+            left: 0;
+            background: var(--primary);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+
+        .card-label {
+            font-family: 'Space Mono', monospace;
+            font-size: .6rem;
+            letter-spacing: .18em;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-bottom: .5rem;
+        }
+
+        .about-card.small .card-label {
+            color: rgba(10, 10, 15, .6);
+        }
+
+        .card-value {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 2.4rem;
+            color: var(--white);
+            line-height: 1;
+        }
+
+        .about-card.small .card-value {
+            color: #0a0a0f;
+        }
+
+        .about-card.big .placeholder {
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(45deg,
+                    rgba(75, 139, 232, .04) 0px,
+                    rgba(75, 139, 232, .04) 1px,
+                    transparent 1px,
+                    transparent 12px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--muted);
+            font-size: .75rem;
+            letter-spacing: .1em;
+            font-family: 'Space Mono', monospace;
+        }
+
+        .gallery-section {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .gallery-scroll {
+            margin-top: 3rem;
+            display: flex;
+            gap: 1.2rem;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+            padding-bottom: 1rem;
+            cursor: grab;
+            scrollbar-width: thin;
+            scrollbar-color: var(--primary) var(--surface);
+        }
+        .gallery-scroll::-webkit-scrollbar {
+            height: 5px;
+        }
+        .gallery-scroll::-webkit-scrollbar-track {
+            background: var(--surface);
+        }
+        .gallery-scroll::-webkit-scrollbar-thumb {
+            background: var(--primary);
+            border-radius: 3px;
+        }
+        .gallery-scroll:active {
+            cursor: grabbing;
+        }
+
+        .gallery-item {
+            flex: 0 0 auto;
+            width: 280px;
+            height: 220px;
+            background: var(--card);
+            border: 1px solid var(--border);
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            scroll-snap-align: start;
+            transition: border-color .3s, transform .3s;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .gallery-item:hover {
+            border-color: var(--primary);
+            transform: translateY(-3px);
+        }
+
+        .gallery-placeholder {
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(-45deg,
+                    rgba(75, 139, 232, .03) 0px,
+                    rgba(75, 139, 232, .03) 1px,
+                    transparent 1px,
+                    transparent 14px);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: .5rem;
+            color: var(--muted);
+            font-family: 'Space Mono', monospace;
+            font-size: .65rem;
+            letter-spacing: .1em;
+            user-select: none;
+            pointer-events: none;
+        }
+        .gallery-placeholder svg {
+            opacity: .3;
+        }
+
+        .pengurus {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .pengurus-grid {
+            margin-top: 3rem;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+        }
+
+        .pengurus-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            padding: 1.5rem;
+            text-align: center;
+            transition: border-color .3s;
+        }
+        .pengurus-card:hover {
+            border-color: var(--primary);
+        }
+
+        .pengurus-avatar {
+            width: 72px;
+            height: 72px;
+            border-radius: 50%;
+            background: var(--surface);
+            border: 2px solid var(--border);
+            margin: 0 auto 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.6rem;
+            color: var(--primary);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .pengurus-name {
+            font-weight: 600;
+            font-size: .9rem;
+            margin-bottom: .3rem;
+        }
+
+        .pengurus-role {
+            font-family: 'Space Mono', monospace;
+            font-size: .62rem;
+            letter-spacing: .12em;
+            color: var(--primary);
+            text-transform: uppercase;
+        }
+
+        .mahasiswa-scroll-wrapper {
+            margin-top: 2.5rem;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+            padding-bottom: 1rem;
+            cursor: grab;
+            scrollbar-width: thin;
+            scrollbar-color: var(--primary) var(--surface);
+            display: flex;
+            gap: 1.5rem;
+        }
+        .mahasiswa-scroll-wrapper::-webkit-scrollbar {
+            height: 5px;
+        }
+        .mahasiswa-scroll-wrapper::-webkit-scrollbar-track {
+            background: var(--surface);
+        }
+        .mahasiswa-scroll-wrapper::-webkit-scrollbar-thumb {
+            background: var(--primary);
+            border-radius: 3px;
+        }
+        .mahasiswa-scroll-wrapper:active {
+            cursor: grabbing;
+        }
+
+        .mhs-card {
+            flex: 0 0 auto;
+            width: 200px;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            padding: 1.5rem 1rem;
+            cursor: pointer;
+            transition: border-color .3s, transform .3s, box-shadow .3s;
+            scroll-snap-align: start;
+            position: relative;
+        }
+        .mhs-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-5px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+        }
+        .mhs-card .mhs-avatar {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            background: var(--surface);
+            border: 2px solid var(--border);
+            margin: 0 auto 0.8rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.5rem;
+            color: var(--primary);
+            transition: border-color .3s;
+            position: relative;
+            overflow: hidden;
+        }
+        .mhs-card .mhs-avatar img {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .mhs-card:hover .mhs-avatar {
+            border-color: var(--primary);
+        }
+        .mhs-card .mhs-name {
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 0.2rem;
+        }
+        .mhs-card .mhs-nim {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.68rem;
+            color: var(--muted);
+            letter-spacing: 0.05em;
+        }
+
+        .modal-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(8px);
+            z-index: 200;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+        }
+        .modal-overlay.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+        .modal-content {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 2rem;
+            max-width: 500px;
+            width: 90%;
+            max-height: 85vh;
+            overflow-y: auto;
+            position: relative;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+            transform: translateY(20px);
+            transition: transform 0.3s ease;
+        }
+        .modal-overlay.active .modal-content {
+            transform: translateY(0);
+        }
+        .modal-close {
+            position: absolute;
+            top: 1rem;
+            right: 1.2rem;
+            background: none;
+            border: none;
+            color: var(--white);
+            font-size: 1.5rem;
+            cursor: pointer;
+            font-family: 'Space Mono', monospace;
+            transition: color 0.2s;
+        }
+        .modal-close:hover {
+            color: var(--primary);
+        }
+        .modal-detail-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1.2rem;
+            font-size: 0.85rem;
+        }
+        .modal-detail-table td {
+            padding: 0.5rem 0.6rem;
+            border-bottom: 1px solid var(--border);
+            vertical-align: top;
+        }
+        .modal-detail-table td:first-child {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.7rem;
+            letter-spacing: 0.08em;
+            color: var(--primary);
+            text-transform: uppercase;
+            width: 40%;
+            white-space: nowrap;
+        }
+        .modal-detail-table td:last-child {
+            color: var(--white);
+        }
+        .modal-header-info {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .modal-header-info .modal-avatar-large {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: var(--card);
+            border: 2px solid var(--primary);
+            margin: 0 auto 0.8rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 2rem;
+            color: var(--primary);
+            position: relative;
+            overflow: hidden;
+        }
+        .modal-header-info .modal-avatar-large img {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .modal-header-info .modal-name {
+            font-weight: 700;
+            font-size: 1.3rem;
+            margin-bottom: 0.2rem;
+        }
+        .modal-header-info .modal-nim {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--muted);
+        }
+        .modal-email {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.7rem;
+            color: var(--primary);
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 0.2rem;
+            transition: color 0.2s;
+        }
+        .modal-email:hover {
+            color: var(--primary-light);
+            text-decoration: underline;
+        }
+
+        footer {
+            background: var(--surface);
+            border-top: 1px solid var(--border);
+            padding: 4rem 3rem;
+            max-width: 100%;
+        }
+        .footer-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 3rem;
+        }
+        .footer-brand .nav-logo {
+            font-size: 2rem;
+        }
+        .footer-brand p {
+            margin-top: .8rem;
+            font-size: .85rem;
+            color: var(--muted);
+            max-width: 240px;
+            line-height: 1.65;
+        }
+        .footer-links h4 {
+            font-family: 'Space Mono', monospace;
+            font-size: .65rem;
+            letter-spacing: .2em;
+            color: var(--primary);
+            text-transform: uppercase;
+            margin-bottom: 1.2rem;
+        }
+        .footer-links ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: .7rem;
+        }
+        .footer-links a {
+            color: var(--muted);
+            text-decoration: none;
+            font-size: .85rem;
+            transition: color .2s;
+        }
+        .footer-links a:hover {
+            color: var(--white);
+        }
+        .footer-social {
+            display: flex;
+            gap: .8rem;
+            margin-top: 1rem;
+        }
+        .social-btn {
+            width: 36px;
+            height: 36px;
+            border: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--muted);
+            text-decoration: none;
+            font-size: .8rem;
+            transition: all .25s;
+        }
+        .social-btn:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+        .footer-bottom {
+            max-width: 1200px;
+            margin: 3rem auto 0;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .footer-bottom p {
+            font-family: 'Space Mono', monospace;
+            font-size: .62rem;
+            letter-spacing: .1em;
+            color: var(--muted);
+        }
+        .footer-bottom p a{
+            font-family: 'Space Mono', monospace;
+            font-size: .62rem;
+            letter-spacing: .1em;
+            color: var(--muted);
+            text-decoration: underline;
+        }
+
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(24px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+        ::-webkit-scrollbar-track {
+            background: var(--bg);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--primary);
+        }
+
+        @media (max-width: 900px) {
+            nav {
+                padding: 1rem 1.5rem;
+            }
+            .nav-links {
+                display: none;
+            }
+            .about {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            .about-visual {
+                height: 260px;
+            }
+            .pengurus-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .gallery-item {
+                width: 220px;
+                height: 180px;
+            }
+            .stats-strip {
+                gap: 1rem;
+            }
+            .stat-item {
+                padding: 0 1.5rem;
+            }
+            .hero-title {
+                font-size: clamp(3.5rem, 10vw, 6rem);
+            }
+            .hero-motto {
+                font-size: clamp(1.3rem, 4vw, 2rem);
+            }
+        }
+
+        @media (max-width: 560px) {
+            section {
+                padding: 4rem 1.5rem;
+            }
+            .pengurus-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+            .mhs-card {
+                width: 160px;
+            }
+            .gallery-item {
+                width: 180px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-logo">TARAKSA 2025</div>
+        <ul class="nav-links">
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#galeri">Galeri</a></li>
+            <li><a href="#pengurus">Pengurus</a></li>
+            <li><a href="#mahasiswa">Mahasiswa</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-bg-num">2025</div>
+        <div class="hero-inner">
+            <div class="hero-tag">2025 · Ilmu Kelautan · UNSRI</div>
+            <h1 class="hero-title">TARAKSA</h1>
+            <div class="hero-motto">Jalesveva Jayamahe!</div>
+            <p class="hero-sub">
+                Di Laut Kita Jaya, di Darat Kita Juara.<br>Bersatu, berbagi, dan tumbuh bersama sebagai satu angkatan.
+            </p>
+            <div class="hero-cta">
+                <a href="#tentang" class="btn btn-primary">Kenali Kami</a>
+                <a href="#mahasiswa" class="btn btn-outline">Jelajahi Mahasiswa</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="stats-strip" id="statsStrip">
+        <div class="stat-item">
+            <span class="stat-num" id="totalMahasiswa">0</span>
+            <span class="stat-label">Mahasiswa</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-num" id="aktifMahasiswa">0</span>
+            <span class="stat-label">Aktif</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-num">2</span>
+            <span class="stat-label">Semester</span>
+        </div>
+    </div>
+
+    <section id="tentang" style="padding: 7rem 3rem;">
+        <div class="about">
+            <div class="about-text">
+                <div class="section-tag">// Tentang Kami</div>
+                <h2 class="section-title">ANGKATAN<br><span style="color:var(--primary)">2025</span></h2>
+                <p>Taraksa berarti menjaga atau melindungi. Taraksa dapat diartikan sebagai menjaga, dan melindungi laut serta ekosistemnya. Pentingnya kesadaran dan tanggung jawab manusia Taraksa mengandung nilai-nilai keingintahuan, rasa hormat terhadap alam, dan menjaga etika lingkungan.</p>
+                <p>Jangkar pada logo melambangkan kestabilan dan kekuatan. Kompas dan bintang yang menjadi petunjuk arah. Perisai dapat melindungi dan bertanggung jawab dan tali sebagai simbol persaudaraan dan kebersamaan.</p>
+                <p>Warna biru tua dikaitkan dengan laut yang dalam dan tenaang. Emas melambangkan matahari, kejayaan, dan kemakmuran. Emas putih menandakan kemurnian dan kesucian, Serts coklat melambangkan kehangatan dan kekuatan.</p>
+                <div style="margin-top:2rem;">
+                    <a href="#pengurus" class="btn btn-primary">Kenali Pengurus</a>
+                </div>
+            </div>
+            <div class="about-visual">
+                <div class="about-card small">
+                    <div class="card-label">Tahun Masuk</div>
+                    <div class="card-value">2025</div>
+                </div>
+                <div class="about-card big">
+                    <img src="img/foto-angkatan.webp" alt="Foto Angkatan 2025" style="width:100%; height:100%; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeri" style="background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+        <div class="gallery-section">
+            <div class="section-tag">// Galeri</div>
+            <h2 class="section-title">MOMEN<br><span style="color:var(--primary)">TERBAIK</span></h2>
+            <div class="gallery-scroll" id="galleryScroll"></div>
+        </div>
+    </section>
+
+    <section id="pengurus">
+        <div class="pengurus">
+            <div class="section-tag">// Tim Pengurus</div>
+            <h2 class="section-title">STRUKTUR<br><span style="color:var(--primary)">ANGKATAN</span></h2>
+            <div class="pengurus-grid" id="pengurusGrid"></div>
+        </div>
+    </section>
+
+    <section id="mahasiswa" style="background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+        <div class="pengurus" style="max-width:1200px; margin:0 auto;">
+            <div class="section-tag">// Kenali Kami</div>
+            <h2 class="section-title">MAHASISWA<br><span style="color:var(--primary)">ANGKATAN 2025</span></h2>
+            <div class="mahasiswa-scroll-wrapper" id="mhsScrollWrapper"></div>
+        </div>
+    </section>
+
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-content" id="modalContent">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="nav-logo">TARAKSA 2025</div>
+                <p>Angkatan 2025 · Ilmu Kelautan<br>FMIPA · Universitas Sriwijaya</p>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/taraksa.25?igsh=MTd2dzI3ZzFsZHl4YQ==" class="social-btn">IG</a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Navigasi</h4>
+                <ul>
+                    <li><a href="#tentang">Tentang</a></li>
+                    <li><a href="#galeri">Galeri</a></li>
+                    <li><a href="#pengurus">Pengurus</a></li>
+                    <li><a href="#mahasiswa">Mahasiswa</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Kontak</h4>
+                <ul>
+                    <li><a href="mailto:taraksa25@gmail.com">Email</a></li>
+                    <li><a href="https://www.instagram.com/taraksa.25?igsh=MTd2dzI3ZzFsZHl4YQ==">Instagram</a></li>
+                    <li><a href="unsri.ac.id">Universitas Sriwijaya</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© TARAKSA 2025</p>
+            <p><a href="https://www.instagram.com/debbyjp_">Debby Juandi Putra</a></p>
+        </div>
+    </footer>
+
+    <script>
+        (async function() {
+            // ----- Galery (statis) -----
+            const galleryData = [
+                { id: 1, label: 'SSAC 2025', waktu: '17 September 2025', deskripsi: "Foto bersama setelah lomba voli SSAC 2025 X Kastrat Bersuara", foto: 'img/galeri/ssac17sep.webp'},
+                { id: 2, label: 'UTS PRAK. SELAM', waktu: '27 September 2025', deskripsi: 'Pelaksanaan praktikum mata kuliah Selam dan sekaligus Ujian Tengah Semester ', foto: 'img/galeri/utsselam.webp'},
+                { id: 3, label: 'Dies Natalis Ke-24', waktu: '4 Desember 2025', deskripsi: 'Perayaan Dies Natalis Ilmu Kelautan Ke-24 Tahun 2025 di Gedung Teater Gabi, Universitas Sriwijaya', foto: 'img/galeri/diesnatalis.webp' },
+                { id: 4, label: 'Asisten Selam', waktu: '15 Desember 2025', deskripsi: 'Foto bersama asisten praktikum mata kuliah Selam angkatan 2025' , foto: 'img/galeri/asistenselam.webp'},
+                { id: 5, label: 'Asisten Lab OSE', waktu: '12 Mei 2026', deskripsi: 'Foto bersama asisten Lab. Oseanografi dan pelaksanaan Ujian Akhir Semester mata kuliah PDKL 2026', foto: 'img/galeri/asistenlabose.webp' },
+                { id: 6, label: 'Kewirausahaan', waktu: '13 Mei 2026', deskripsi: 'Kegiatan penjualan produk makanan dan minuman di depan Landmark Universitas Sriwijaya', foto: 'img/galeri/kewirausahaan.webp' },
+                { id: 7, label: 'LDO DAY-1', waktu: '15 Mei 2026', deskripsi: 'Foto bersama setelah acara LDO & LDK 2026 hari pertama', foto: 'img/galeri/ldoday1.webp' },
+                { id: 8, label: 'LDO DAY-2', waktu: '16 Mei 2026', deskripsi: 'Foto bersama setelah acara LDO & LDK 2026 hari kedua', foto: 'img/galeri/ldoday2.webp' },
+            ];
+            const reversedGallery = [...galleryData].reverse();
+            const galleryScroll = document.getElementById('galleryScroll');
+            reversedGallery.forEach(item => {
+                const div = document.createElement('div');
+                div.className = 'gallery-item';
+                div.setAttribute('data-waktu', item.waktu);
+                div.setAttribute('data-deskripsi', item.deskripsi);
+                div.setAttribute('data-label', item.label);
+                div.setAttribute('data-foto', item.foto || '');
+                if (item.foto && item.foto !== '') {
+                    div.innerHTML = `<img src="${item.foto}" alt="${item.label}" style="width:100%; height:100%; object-fit: cover;">`;
+                } else {
+                    div.innerHTML = `<div class="gallery-placeholder"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg><span>${item.label}</span></div>`;
+                }
+                div.addEventListener('click', function() {
+                    openGalleryModal(this.getAttribute('data-waktu'), this.getAttribute('data-deskripsi'), this.getAttribute('data-label'), this.getAttribute('data-foto'));
+                });
+                galleryScroll.appendChild(div);
+            });
+            function openGalleryModal(waktu, deskripsi, label, fotoUrl) {
+                const modalBody = document.getElementById('modalBody');
+                let imageHtml = (fotoUrl && fotoUrl !== '') ? `<img src="${fotoUrl}" alt="${label}" style="width:100%; max-height:300px; object-fit:cover; border-radius:8px; margin-bottom:1rem;">` : '';
+                modalBody.innerHTML = `<div style="text-align:center;"><div style="font-family:'Bebas Neue',sans-serif; font-size:2rem; color:var(--primary); margin-bottom:0.5rem;">${label}</div>${imageHtml}<table class="modal-detail-table"><tr><td>Waktu</td><td>${waktu}</td></tr><tr><td>Deskripsi</td><td>${deskripsi}</td></tr></table></div>`;
+                document.getElementById('modalOverlay').classList.add('active');
+            }
+
+            // helper avatar
+            function createAvatarHtml(fotoPath, nama, sizeClass) {
+                const initial = nama ? nama.charAt(0) : '?';
+                const avatarClass = (sizeClass === 'large') ? 'modal-avatar-large' : 'mhs-avatar';
+                if (fotoPath && fotoPath.trim() !== '') {
+                    return `<div class="${avatarClass}" style="position:relative; overflow:hidden;"><img src="${fotoPath}" alt="${nama}" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; border-radius:50%;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><span style="display:none; width:100%; height:100%; align-items:center; justify-content:center; font-family:'Bebas Neue',sans-serif; font-size:${sizeClass === 'large' ? '2rem' : '1.5rem'}; color:var(--primary);">${initial}</span></div>`;
+                } else {
+                    return `<div class="${avatarClass}">${initial}</div>`;
+                }
+            }
+
+            // Modal mahasiswa detail
+            function openMahasiswaModal(m) {
+                const modalBody = document.getElementById('modalBody');
+                const nama = m.nama || '-';
+                const nim = m.nim || '-';
+                const hobi = Array.isArray(m.hobi) && m.hobi.length ? m.hobi.join(', ') : (m.hobi || '-');
+                const ttl = m.ttl || '-';
+                const status = m.status || '-';
+                const motto = m.motto || '-';
+                const alamat = m.alamat || '-';
+                const asal = m.asal || '-';
+                const email = m.email || '';
+                const sosmed1 = m.sosmed1 && m.sosmed1 !== '#' ? m.sosmed1 : '#';
+                const makananFav = m.makananFav || '-';
+                const ukSepatu = m.ukSepatu || '-';
+                const ukPakaian = m.ukPakaian || '-';
+                const tb = m.tb || '-';
+                const bb = m.bb || '-';
+                const dosenPA = m.dosenPA || '-';
+                const avatarHtml = createAvatarHtml(m.foto, nama, 'large');
+                const emailHtml = email ? `<a href="mailto:${email}" class="modal-email">${email}</a>` : '';
+                modalBody.innerHTML = `
+                    <div class="modal-header-info">
+                        ${avatarHtml}
+                        <div class="modal-name">${nama}</div>
+                        <div class="modal-nim">${nim}</div>
+                        ${emailHtml}
+                    </div>
+                    <table class="modal-detail-table">
+                        <tr><td>Nama Lengkap</td><td>${nama}</td></tr>
+                        <tr><td>NIM</td><td>${nim}</td></tr>
+                        <tr><td>Hobi</td><td>${hobi}</td></tr>
+                        <tr><td>Tempat, Tgl Lahir</td><td>${ttl}</td></tr>
+                        <tr><td>Asal</td><td>${asal}</td></tr>
+                        <tr><td>Status</td><td>${status}</td></tr>
+                        <tr><td>Motto</td><td>${motto}</td></tr>
+                        <tr><td>Dosen PA</td><td>${dosenPA}</td></tr>
+                        <tr><td>Alamat</td><td>${alamat}</td></tr>
+                        <tr><td>Instagram</td><td>${sosmed1 !== '#' ? `<a href="${sosmed1}" target="_blank" style="color:var(--primary);">@${sosmed1.split('/').pop()}</a>` : '-'}</td></tr>
+                        <tr><td>Makanan Favorit</td><td>${makananFav}</td></tr>
+                        <tr><td>Ukuran Sepatu</td><td>${ukSepatu}</td></tr>
+                        <tr><td>Ukuran Pakaian</td><td>${ukPakaian}</td></tr>
+                        <tr><td>Tinggi Badan (cm)</td><td>${tb}</td></tr>
+                        <tr><td>Berat Badan (kg)</td><td>${bb}</td></tr>
+                    </table>
+                `;
+                document.getElementById('modalOverlay').classList.add('active');
+            }
+
+            // Load data mahasiswa
+            const mhsWrapper = document.getElementById('mhsScrollWrapper');
+            let total = 0, aktif = 0;
+            try {
+                const response = await fetch('mahasiswa.json');
+                if (!response.ok) throw new Error('Gagal fetch');
+                const jsonData = await response.json();
+                const sortedKeys = Object.keys(jsonData).sort((a,b) => parseInt(a)-parseInt(b));
+                const mahasiswaArray = sortedKeys.map(k => jsonData[k]);
+                total = mahasiswaArray.length;
+                aktif = mahasiswaArray.filter(m => {
+                    const st = (m.status || '').toUpperCase();
+                    return st === 'AKTIF' || st === 'AKTIF' || m.status === 'Aktif';
+                }).length;
+                document.getElementById('totalMahasiswa').innerText = total;
+                document.getElementById('aktifMahasiswa').innerText = aktif;
+                
+                mahasiswaArray.forEach((m) => {
+                    const card = document.createElement('div');
+                    card.className = 'mhs-card';
+                    const nim = m.nim || '-';
+                    const nama = m.nama || '-';
+                    const avatarHtml = createAvatarHtml(m.foto, nama, 'small');
+                    card.innerHTML = `${avatarHtml}<div class="mhs-name">${nama}</div><div class="mhs-nim">${nim}</div>`;
+                    card.addEventListener('click', () => openMahasiswaModal(m));
+                    mhsWrapper.appendChild(card);
+                });
+            } catch (error) {
+                console.error(error);
+                mhsWrapper.innerHTML = '<p style="color:var(--muted); padding:2rem;">Gagal memuat data mahasiswa. Pastikan file mahasiswa.json tersedia.</p>';
+                document.getElementById('totalMahasiswa').innerText = '0';
+                document.getElementById('aktifMahasiswa').innerText = '0';
+            }
+
+            // Data Pengurus dari JSON (Rafly & Rayhan)
+            let raflyData = null, rayhanData = null;
+            try {
+                const resp = await fetch('mahasiswa.json');
+                if (resp.ok) {
+                    const all = await resp.json();
+                    for (let key in all) {
+                        if (all[key].nama === "RAFLY YOUAN SANDOVICH") raflyData = all[key];
+                        if (all[key].nama === "MUHAMMAD RAYHAN THAMRIN") rayhanData = all[key];
+                    }
+                }
+            } catch(e) { console.warn(e); }
+            const pengurusGrid = document.getElementById('pengurusGrid');
+            const ketuaFoto = raflyData?.foto ? `url('${raflyData.foto}')` : '';
+            const wakilFoto = rayhanData?.foto ? `url('${rayhanData.foto}')` : '';
+            pengurusGrid.innerHTML = `
+                <div class="pengurus-card">
+                    <div class="pengurus-avatar" style="${ketuaFoto ? `background-image: ${ketuaFoto}; background-size: cover;` : ''}">${raflyData ? '' : 'R'}</div>
+                    <div class="pengurus-name">${raflyData?.nama || 'Rafly Youan Sandovich'}</div>
+                    <div class="pengurus-role">Ketua Angkatan</div>
+                </div>
+                <div class="pengurus-card">
+                    <div class="pengurus-avatar" style="${wakilFoto ? `background-image: ${wakilFoto}; background-size: cover;` : ''}">${rayhanData ? '' : 'R'}</div>
+                    <div class="pengurus-name">${rayhanData?.nama || 'M. Rayhan Thamrin'}</div>
+                    <div class="pengurus-role">Wakil Ketua Angkatan</div>
+                </div>
+                <div class="pengurus-card">
+                    <div class="pengurus-avatar">S</div>
+                    <div class="pengurus-name">Nama Sekretaris</div>
+                    <div class="pengurus-role">Sekretaris</div>
+                </div>
+                <div class="pengurus-card">
+                    <div class="pengurus-avatar">B</div>
+                    <div class="pengurus-name">Nama Bendahara</div>
+                    <div class="pengurus-role">Bendahara</div>
+                </div>
+            `;
+
+            // Modal close handlers
+            function closeModal() { document.getElementById('modalOverlay').classList.remove('active'); }
+            document.getElementById('modalClose').addEventListener('click', closeModal);
+            document.getElementById('modalOverlay').addEventListener('click', function(e) { if (e.target === this) closeModal(); });
+            document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeModal(); });
+        })();
+    </script>
+</body>
+</html>
