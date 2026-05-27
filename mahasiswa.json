@@ -922,22 +922,23 @@
   "047": {
     "nama": "MAZIYYAH SALSABILA",
     "nim": "08051282530047",
-    "dosenPA": "",
+    "dosenPA": "Prof. Dr. Rozirwan, S.Pi., M.Sc.",
     "ttl": "Palembang, 19 Oktober 2007",
-    "hobi": [],
+    "hobi": ["Tidur","Makan","Main"],
     "status": "AKTIF",
     "motto": "",
     "alamat": "",
     "asal": "Lahat",
     "sosmed1": "",
     "sosmed2": "",
-    "email": "",
+    "email": "maziyyahsalsabila86@gmail.com",
     "makananFav": "",
     "ukSepatu": "",
     "ukPakaian": "",
     "tb": "",
     "bb": "",
-    "foto": "img/mahasiswa/047.webp"
+    "foto": "img/mahasiswa/047.webp",
+    "wa": "082169882007"
   },
   "048": {
     "nama": "AGIL RIVANY",
