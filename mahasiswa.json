@@ -1546,7 +1546,7 @@
   "078": {
     "nama": "FELIX BARAJA TAMPUBOLON",
     "nim": "08051382530078",
-    "dosenPA": "",
+    "dosenPA": "Ahmad, S.Kel., M.Sc.",
     "ttl": "Palembang, 29 Desember 2006",
     "hobi": ["Futsal"],
     "status": "AKTIF",
@@ -1561,7 +1561,8 @@
     "ukPakaian": "",
     "tb": "",
     "bb": "",
-    "foto": "img/mahasiswa/078.webp"
+    "foto": "img/mahasiswa/078.webp",
+    "wa": ""
   },
   "079": {
     "nama": "PUTRI MAYAZA",
