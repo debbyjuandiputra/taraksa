@@ -1131,11 +1131,7 @@
     "motto": "yeeee",
     "alamat": "",
     "asal": "Medan",
-<<<<<<< HEAD
     "sosmed1": "https://www.instagram.com/dpxnn",
-=======
-    "sosmed1": "",
->>>>>>> add-mhs
     "sosmed2": "",
     "email": "puflyyc@gmail.com",
     "makananFav": "Nasgor",
@@ -1216,11 +1212,7 @@
     "motto": "",
     "alamat": "",
     "asal": "Lubuklinggau",
-<<<<<<< HEAD
     "sosmed1": "https://www.instagram.com/septhgraini",
-=======
-    "sosmed1": "",
->>>>>>> add-mhs
     "sosmed2": "",
     "email": "rosita280725@gmail.com",
     "makananFav": "",
@@ -1459,11 +1451,7 @@
     "status": "TIDAK AKTIF",
     "motto": "",
     "alamat": "",
-<<<<<<< HEAD
     "asal": "",
-=======
-    "asal": "Indralaya",
->>>>>>> add-mhs
     "sosmed1": "https://www.instagram.com/bayuusa__",
     "sosmed2": "",
     "email": "bayusptr12@gmail.com",
@@ -1483,15 +1471,9 @@
     "status": "AKTIF",
     "motto": "",
     "alamat": "",
-<<<<<<< HEAD
     "asal": "Sekayu",
     "sosmed1": "https://www.instagram.com/duthaccc",
     "sosmed2": "https://www.instagram.com/duthachandra",
-=======
-    "asal": "",
-    "sosmed1": "https://www.instagram.com/duthaccc",
-    "sosmed2": "",
->>>>>>> add-mhs
     "email": "",
     "makananFav": "",
     "ukSepatu": "",
@@ -2111,19 +2093,6 @@
     "hobi": ["Main game", "Nonton drakor", "Makan" ],
     "status": "AKTIF",
     "motto": "",
-<<<<<<< HEAD
-    "alamat": "",
-    "asal": "",
-    "sosmed1": "https://www.instagram.com/crnaflia",
-    "sosmed2": "",
-    "email": "",
-    "makananFav": "",
-    "ukSepatu": "",
-    "ukPakaian": "",
-    "tb": "",
-    "bb": "",
-    "foto": "img/mahasiswa/105.webp"
-=======
     "alamat": "Jl. Raya Sukaraja, Sukaraja, Kec. Buay Madang, Kab. Ogan Komering Ulu Timur",
     "asal": "Bantan Pelita",
     "sosmed1": "https://www.instagram.com/crnaflia",
@@ -2136,7 +2105,6 @@
     "bb": "56",
     "foto": "img/mahasiswa/105.webp",
     "wa": "083132383410"
->>>>>>> add-mhs
   },
   "106": {
     "nama": "KEISHA FATHINAH ANWAR",
