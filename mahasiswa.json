@@ -1064,7 +1064,7 @@
   "054": {
     "nama": "MUHAMMAD MAHSYA ARRAFI",
     "nim": "08051282530054",
-    "dosenPA": "",
+    "dosenPA": "Dr. Riris Aryawati, S.T., M.Si.",
     "ttl": "Tangerang, 27 November 2006",
     "hobi": ["Bercocok tanam"],
     "status": "TIDAK AKTIF",
@@ -1104,7 +1104,7 @@
   "056": {
     "nama": "HESEKIEL SIMON PAULUS PARDEDE",
     "nim": "08051282530056",
-    "dosenPA": "",
+    "dosenPA": "Dr. Riris Aryawati, S.T., M.Si.",
     "ttl": "?, ? ? 2006",
     "hobi": [],
     "status": "AKTIF",
@@ -1131,7 +1131,11 @@
     "motto": "yeeee",
     "alamat": "",
     "asal": "Medan",
+<<<<<<< HEAD
     "sosmed1": "https://www.instagram.com/dpxnn",
+=======
+    "sosmed1": "",
+>>>>>>> add-mhs
     "sosmed2": "",
     "email": "puflyyc@gmail.com",
     "makananFav": "Nasgor",
@@ -1212,7 +1216,11 @@
     "motto": "",
     "alamat": "",
     "asal": "Lubuklinggau",
+<<<<<<< HEAD
     "sosmed1": "https://www.instagram.com/septhgraini",
+=======
+    "sosmed1": "",
+>>>>>>> add-mhs
     "sosmed2": "",
     "email": "rosita280725@gmail.com",
     "makananFav": "",
@@ -1445,21 +1453,25 @@
   "073": {
     "nama": "BAYU SAPUTRA",
     "nim": "08051382530073",
-    "dosenPA": "",
-    "ttl": "",
-    "hobi": [],
+    "dosenPA": "Risnita Tri Utami, S.Kel., M.Si.",
+    "ttl": "Indralaya, 23 Januari 2007 ",
+    "hobi": ["Main game", "Nongkrong", "Mancing" ],
     "status": "TIDAK AKTIF",
     "motto": "",
     "alamat": "",
+<<<<<<< HEAD
     "asal": "",
+=======
+    "asal": "Indralaya",
+>>>>>>> add-mhs
     "sosmed1": "https://www.instagram.com/bayuusa__",
     "sosmed2": "",
-    "email": "",
-    "makananFav": "",
-    "ukSepatu": "",
-    "ukPakaian": "",
-    "tb": "",
-    "bb": "",
+    "email": "bayusptr12@gmail.com",
+    "makananFav": "Kacang rebus, Basreng bakso crispy",
+    "ukSepatu": "40-41",
+    "ukPakaian": "L",
+    "tb": "169",
+    "bb": "55",
     "foto": "img/mahasiswa/073.webp"
   },
   "074": {
@@ -1471,9 +1483,15 @@
     "status": "AKTIF",
     "motto": "",
     "alamat": "",
+<<<<<<< HEAD
     "asal": "Sekayu",
     "sosmed1": "https://www.instagram.com/duthaccc",
     "sosmed2": "https://www.instagram.com/duthachandra",
+=======
+    "asal": "",
+    "sosmed1": "https://www.instagram.com/duthaccc",
+    "sosmed2": "",
+>>>>>>> add-mhs
     "email": "",
     "makananFav": "",
     "ukSepatu": "",
@@ -2088,11 +2106,12 @@
   "105": {
     "nama": "CAREN AUFALLIA",
     "nim": "08051382530105",
-    "dosenPA": "",
-    "ttl": "",
-    "hobi": [],
+    "dosenPA": "Dr. Hartoni Gumay, S.Pi., M.Si.",
+    "ttl": "Oku Timur, 1 November 2007",
+    "hobi": ["Main game", "Nonton drakor", "Makan" ],
     "status": "AKTIF",
     "motto": "",
+<<<<<<< HEAD
     "alamat": "",
     "asal": "",
     "sosmed1": "https://www.instagram.com/crnaflia",
@@ -2104,6 +2123,20 @@
     "tb": "",
     "bb": "",
     "foto": "img/mahasiswa/105.webp"
+=======
+    "alamat": "Jl. Raya Sukaraja, Sukaraja, Kec. Buay Madang, Kab. Ogan Komering Ulu Timur",
+    "asal": "Bantan Pelita",
+    "sosmed1": "https://www.instagram.com/crnaflia",
+    "sosmed2": "https://www.tiktok.com/@caren_0107",
+    "email": "carenaufalia07@gmail.com",
+    "makananFav": "Bakso",
+    "ukSepatu": "39-40",
+    "ukPakaian": "L",
+    "tb": "160",
+    "bb": "56",
+    "foto": "img/mahasiswa/105.webp",
+    "wa": "083132383410"
+>>>>>>> add-mhs
   },
   "106": {
     "nama": "KEISHA FATHINAH ANWAR",
